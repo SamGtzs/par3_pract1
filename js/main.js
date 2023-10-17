@@ -7,7 +7,7 @@ $linkGithub.href =
   "https://github.com/jonmircha/amerike-lenguajes-interpretados-2023";
 $linkGithub.target = "_blank";
 
-let nombre = "Jonathan";
+let nombre = "Samuel";
 let $nombre = document.querySelector("#nombre");
 
 $nombre.innerHTML = nombre;
@@ -41,14 +41,6 @@ async function obtenerDatos() {
       <tr>
         <td>Edad:</td>
         <td>${datos.edad}</td>
-      </tr>
-      <tr>
-        <td>Es Profesor:</td>
-        <td>${datos.profesor}</td>
-      </tr>
-      <tr>
-        <td>Materias:</td>
-        <td>${datos.materias}</td>
       </tr>
       <tr>
         <td>Correo:</td>

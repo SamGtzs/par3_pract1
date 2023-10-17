@@ -1,15 +1,10 @@
 {
-  "nombre": "Jon",
-  "edad": 39,
-  "profesor": true,
-  "materias": [
-    "Lenguajes Interpretados",
-    "Diseño de Interfaces",
-    "Desarrollo Web"
-  ],
+  "nombre": "Samuel",
+  "edad": 19,
+ 
   "contacto": {
-    "correo": "jonmircha@gmail.com",
-    "youtube": "@jonmircha",
-    "movil": "5512345678"
+    "correo": "samuelgtz025@gmail.com",
+    "youtube": "SamGtz",
+    "movil": "9222072370"
   }
 }
