@@ -21,6 +21,7 @@ img {
 
 p {
   color: rgb(0, 0, 0);
+  margin-left: auto;
 }
 
 #titulo {
@@ -51,15 +52,18 @@ p {
 }
 
 .bg-purple {
-  background-color: rgb(221, 148, 221);
+  background-color: rgb(250, 184, 250);
+  border-radius: 0.5rem;
 }
 
 .bg-pink {
-  background-color: rgb(205, 152, 255);
+  background-color: rgb(228, 199, 255);
+  border-radius: 0.5rem;
 }
 
 .bg-orange {
-  background-color: rgb(250, 199, 104);
+  background-color: rgb(255, 223, 164);
+  border-radius: 0.5rem;
 }
 
 .fs-20 {
