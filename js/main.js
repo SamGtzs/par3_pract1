@@ -1,11 +1,4 @@
-console.log("Hola Mundo");
 
-let $linkGithub = document.querySelector("#link-github");
-console.log($linkGithub);
-
-$linkGithub.href =
-  "https://github.com/jonmircha/amerike-lenguajes-interpretados-2023";
-$linkGithub.target = "_blank";
 
 let nombre = "Samuel";
 let $nombre = document.querySelector("#nombre");
@@ -59,7 +52,7 @@ async function obtenerDatos() {
 obtenerDatos();
 
 async function obtenerDatosGitHub() {
-  let respuesta = await fetch("https://api.github.com/users/jonmircha");
+  let respuesta = await fetch("https://api.github.com/users/SamGtzs");
   let datos = await respuesta.json();
 
   let $github = document.querySelector("#github");
