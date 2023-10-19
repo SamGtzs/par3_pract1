@@ -9,8 +9,8 @@ let $btnLight = document.querySelector("#btn-light");
 let $btnDark = document.querySelector("#btn-dark");
 
 $btnLight.addEventListener("click", function (e) {
-  document.body.style.backgroundColor = "yellow";
-  document.body.style.color = "black";
+  document.body.style.backgroundColor = "white";
+  document.body.style.color = "teal";
 });
 
 $btnDark.addEventListener("click", (e) => {
